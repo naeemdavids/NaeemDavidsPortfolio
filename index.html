@@ -143,16 +143,30 @@
                     <div class="container">
                         <h3 class="text-center">Email Me!</h3>
                         <form action="https://formsubmit.co/naeemdav32@gmail.com" method="POST">
+                            <!--HoneyPot, for catching bots-->
+                            <input type="text" name="_honey" id="honeyPot">
+
+                            <!--Take away captcha-->
+                            <input type="hidden" name="_captcha" value="false">
+
                             <input type="hidden" name="_subject" value="New submission from Portfolio!">
+                            
                             <label for="name">Name:</label>
                             <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+                            
                             <br>
+                            
                             <label for="email">Email:</label>
                             <input type="email" class="form-control" name="email" placeholder="Your Email" required>
-                            <input type="hidden" name="_next" value="https://naeemdavids.github.io/NaeemDavidsPortfolio/pages/thanks.html">
+
                             <br>
+                            
                             <label for="message">Message:</label>
                             <textarea type="text" class="form-control" name="message" placeholder="Message" required></textarea>
+                            
+                            <br>
+                            
+                            <input type="hidden" name="_next" value="https://naeemdavids.github.io/NaeemDavidsPortfolio/pages/thanks.html">
                             <br>
                             <button type="submit" class="btn btn-light btn-outline-success mb-2" id="submitButton">Submit</button>
                        </form>
@@ -161,6 +175,10 @@
             </div>
         </div>
     </div>
+
+    <footer class="text-center text-white bg-success p-2">
+        Naeem Davids Portfolio &copy; 2022. All Rights Reserved
+    </footer>
     
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
