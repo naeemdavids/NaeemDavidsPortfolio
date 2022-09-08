@@ -148,6 +148,12 @@ ul{
 }
 
 /*Style For the Contact section submit button*/
+/*Style For the Honey Pot to catch bots*/
+#honeyPot{
+    display: none;
+}
+
+
 @media (max-width: 1400px) {
     #submitButton{
         margin-left: 110px;
