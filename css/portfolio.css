@@ -24,28 +24,44 @@
 
 /*Style for the skill table*/
 table{
-    width: 90%;
+    width: 100%;
 }
 
 ul{
     display: inline-block;
 }
 
-#skillHtml{
-    margin-right: 60px;
-}
-
-#skillCSS3{
-    margin-right: 75px;
-}
-
-#skillJquery{
+#skillJavaScript{
     margin-right: 10px;
 }
 
-#skillGIT{
+#skillHtml{
+    margin-right: 70px;
+}
+
+#skillCSS3{
+    margin-right: 85px;
+}
+
+#skillBootstrap{
+    margin-right: 20px;
+}
+
+#skillJquery{
     margin-right: 60px;
 }
+
+#skillGit{
+    margin-right: 120px;
+}
+#skillGitHub{
+    margin-right: 60px;
+}
+
+
+
+
+
 
 
 /*Style For the project 1 text section*/
@@ -187,6 +203,12 @@ ul{
 @media (max-width: 600px) {
     #submitButton{
         margin-left: 75px;
+        width: 60%;
+    }
+}
+@media (max-width: 390px) {
+    #submitButton{
+        margin-left: 53px;
         width: 60%;
     }
 }
