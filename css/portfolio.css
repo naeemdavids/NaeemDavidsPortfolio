@@ -1,0 +1,224 @@
+/*Style for the opening header*/
+#headerOpen {
+    margin-top: 15px;
+}
+
+
+/*Style For the About Me Text section*/
+@media (max-width: 1400px) {
+    #aboutMeText{
+        padding-top: 130px;
+    }
+}
+@media (max-width: 1200px) {
+    #aboutMeText{
+        padding-top: 60px;
+    }
+}
+@media (max-width: 991px) {
+    #aboutMeText{
+        padding-top: 0px;
+    }
+}
+
+
+/*Style for the skill table*/
+table{
+    width: 90%;
+}
+
+ul{
+    display: inline-block;
+}
+
+#skillHtml{
+    margin-right: 60px;
+}
+
+#skillCSS3{
+    margin-right: 75px;
+}
+
+#skillJquery{
+    margin-right: 10px;
+}
+
+#skillGIT{
+    margin-right: 60px;
+}
+
+
+/*Style For the project 1 text section*/
+@media (max-width: 1400px) {
+    #project1{
+        padding-top: 75px;
+    }
+}
+@media (max-width: 1200px) {
+    #project1{
+        padding-top: 30px;
+    }
+}
+@media (max-width: 991px) {
+    #project1{
+        padding-top: 0px;
+    }
+}
+
+#project1hrefText{
+    text-decoration: none;
+    color: white;
+}
+
+
+/*Style For the project 1 Gif section, becuase its nested in a <a href> tag.*/
+@media (max-width: 770px) {
+    #project1Gif{
+        width: 440px;
+    }
+}
+@media (max-width: 580px) {
+    #project1Gif{
+        width: 400px;
+    }
+}
+@media (max-width: 520px) {
+    #project1Gif{
+        width: 360px;
+    }
+}
+@media (max-width: 480px) {
+    #project1Gif{
+        width: 320px;
+    }
+}
+@media (max-width: 430px) {
+    #project1Gif{
+        width: 280px;
+    }
+}
+@media (max-width: 390px) {
+    #project1Gif{
+        width: 230px;
+    }
+}
+
+
+/*Style For the Contact section*/
+#contactMe{
+    margin-top: 30px;
+}
+@media (max-width: 1400px) {
+    #contactMe{
+        padding-top: 40px;
+    }
+}
+@media (max-width: 1200px) {
+    #contactMe{
+        padding-top: 20px;
+    }
+}
+@media (max-width: 1000px) {
+    #contactMe{
+        padding-top: 10px;
+    }
+}
+
+/*Style For the Contact section icons*/
+#githubIcon{
+    font-size: 50px;
+    transition: color 0.2;
+    text-decoration: none;
+    margin: 0 10px;
+}
+#githubIcon:hover {
+    color: white;
+    font-size: 50px;
+}
+
+#linkedinIcon{
+    font-size: 50px;
+    transition: color 0.2;
+    text-decoration: none;
+    margin: 0 10px;
+}
+#linkedinIcon:hover {
+    color: white;
+    font-size: 50px;
+}
+
+/*Style For the Contact section submit button*/
+@media (max-width: 1400px) {
+    #submitButton{
+        margin-left: 110px;
+        width: 60%;
+    }
+}
+@media (max-width: 1200px) {
+    #submitButton{
+        margin-left: 90px;
+        width: 60%;
+    }
+}
+@media (max-width: 1000px) {
+    #submitButton{
+        margin-left: 130px;
+        width: 60%;
+    }
+}
+@media (max-width: 850px) {
+    #submitButton{
+        margin-left: 120px;
+        width: 60%;
+    }
+}
+@media (max-width: 765px) {
+    #submitButton{
+        margin-left: 90px;
+        width: 60%;
+    }
+}
+@media (max-width: 600px) {
+    #submitButton{
+        margin-left: 75px;
+        width: 60%;
+    }
+}
+
+
+/*Style For the thanks page text and bact to home button.*/
+#thanksText{
+    padding-top: 250px;
+}
+
+@media (max-width: 1400px) {
+    #backButton{
+        margin-left: 280px;
+        width: 50%;
+    }
+}
+@media (max-width: 1200px) {
+    #backButton{
+        margin-left: 230px;
+        width: 50%;
+    }
+}
+@media (max-width: 1000px) {
+    #backButton{
+        margin-left: 180px;
+        width: 50%;
+    }
+}
+@media (max-width: 800px) {
+    #backButton{
+        margin-left: 130px;
+        width: 50%;
+    }
+}
+@media (max-width: 600px) {
+    #backButton{
+        margin-left: 100px;
+        width: 50%;
+    }
+}
+
