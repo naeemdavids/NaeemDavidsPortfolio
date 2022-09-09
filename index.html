@@ -18,7 +18,7 @@
         <div class="container">
             <a href="index.html" class="navbar-brand">Naeem Davids</a>
 
-            <div class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#naviMenu">
+            <div class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#naviMenu">
                 <span class="navbar-toggler-icon"></span>
             </div>
 
@@ -75,21 +75,25 @@
         <div class="container">
             <div class="border border-2 rounded border-light">
                 <h1 class="text-center">Skills</h1>
-                <table>
-                    <tr>
-                        <td class="container text-center">
-                            <ul>
-                                <li id="skillJavaScript"><h2>JavaScript</h2></li>
-                                <li id="skillHtml"><h2>Html5</h2></li>
-                                <li id="skillCSS3"><h2>CSS3</h2></li>
-                                <li id="skillBootstrap"><h2>Bootstrap</h2></li>
-                                <li id="skillJquery"><h2>Jquery</h2></li>
-                                <li id="skillGit"><h2>Git</h2></li>
-                                <li id="skillGitHub"><h2>GitHub</h2></li>
-                            </ul>
-                        </td>
-                    </tr>
-                </table>
+                <div class="d-lg-flex">
+                    <p class="lead text-center" id="skillText">My skills aren't much for now, but they will increase as I continue to learn!</p>
+                    <table>
+                        <tr>
+                            <td class="container text-center">
+                                <ul>
+                                    <li id="skillJavaScript"><h2>JavaScript</h2></li>
+                                    <li id="skillHtml"><h2>Html5</h2></li>
+                                    <li id="skillCSS3"><h2>CSS3</h2></li>
+                                    <li id="skillBootstrap"><h2>Bootstrap</h2></li>
+                                    <li id="skillJquery"><h2>Jquery</h2></li>
+                                    <li id="skillGit"><h2>Git</h2></li>
+                                    <li id="skillGitHub"><h2>GitHub</h2></li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                
             </div>
         </div>
     </div>
@@ -148,17 +152,17 @@
                             <input type="hidden" name="_subject" value="New submission from Portfolio!">
                             
                             <label for="name">Name:</label>
-                            <input type="text" class="form-control" name="name" placeholder="Your Name" required>
+                            <input type="text" class="form-control" name="name" placeholder="Your Name" id="name" required>
                             
                             <br>
                             
                             <label for="email">Email:</label>
-                            <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                            <input type="email" class="form-control" name="email" placeholder="Your Email" id="email" required>
 
                             <br>
                             
                             <label for="message">Message:</label>
-                            <textarea type="text" class="form-control" name="message" placeholder="Message" required></textarea>
+                            <textarea class="form-control" name="message" placeholder="Message" id="message" required></textarea>
                             
                             <br>
                             
